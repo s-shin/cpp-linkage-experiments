@@ -1,0 +1,175 @@
+===== build-SHARED-v1-off-v1 =====
+libhello.dylib: 42
+0000000000001460 T __Z3SayNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE
+00000000000013a0 T __Z5HelloNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE
+myapp: 39
+0000000100001d40 T __Z3SayNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE
+                 U __Z5HelloNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE
+---
+v1: Hello, Alice!
+v1: How are you doing?
+
+===== build-SHARED-v1-off-v2 =====
+libhello.dylib: 42
+0000000000001460 T __Z3SayNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE
+00000000000013a0 T __Z5HelloNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE
+myapp: 39
+0000000100001d40 T __Z3SayNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE
+                 U __Z5HelloNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE
+---
+v2: Hello, Alice!
+v2: How are you doing?
+
+===== build-SHARED-v1-on-v1 =====
+libhello.dylib: 42
+0000000000001490 t __Z3SayNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE
+00000000000013d0 T __Z5HelloNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE
+myapp: 39
+0000000100001d60 t __Z3SayNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE
+                 U __Z5HelloNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE
+---
+v1: Hello, Alice!
+v1: How are you doing?
+
+===== build-SHARED-v1-on-v2 =====
+libhello.dylib: 42
+0000000000001490 t __Z3SayNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE
+00000000000013d0 T __Z5HelloNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE
+myapp: 39
+0000000100001d60 t __Z3SayNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE
+                 U __Z5HelloNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE
+---
+v1: Hello, Alice!
+v2: How are you doing?
+
+===== build-SHARED-v2-off-v1 =====
+libhello.dylib: 42
+0000000000001460 T __Z3SayNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE
+00000000000013a0 T __Z5HelloNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE
+myapp: 39
+0000000100001d40 T __Z3SayNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE
+                 U __Z5HelloNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE
+---
+v1: Hello, Alice!
+v1: How are you doing?
+
+===== build-SHARED-v2-off-v2 =====
+libhello.dylib: 42
+0000000000001460 T __Z3SayNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE
+00000000000013a0 T __Z5HelloNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE
+myapp: 39
+0000000100001d40 T __Z3SayNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE
+                 U __Z5HelloNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE
+---
+v2: Hello, Alice!
+v2: How are you doing?
+
+===== build-SHARED-v2-on-v1 =====
+libhello.dylib: 42
+0000000000001490 t __Z3SayNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE
+00000000000013d0 T __Z5HelloNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE
+myapp: 39
+0000000100001d60 t __Z3SayNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE
+                 U __Z5HelloNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE
+---
+v2: Hello, Alice!
+v1: How are you doing?
+
+===== build-SHARED-v2-on-v2 =====
+libhello.dylib: 42
+0000000000001490 t __Z3SayNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE
+00000000000013d0 T __Z5HelloNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE
+myapp: 39
+0000000100001d60 t __Z3SayNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE
+                 U __Z5HelloNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE
+---
+v2: Hello, Alice!
+v2: How are you doing?
+
+===== build-STATIC-v1-off-v1 =====
+libhello.a: 43
+00000000000000c0 T __Z3SayNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE
+0000000000000000 T __Z5HelloNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE
+myapp: 46
+0000000100001310 T __Z3SayNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE
+0000000100002220 T __Z5HelloNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE
+---
+v1: Hello, Alice!
+v1: How are you doing?
+
+===== build-STATIC-v1-off-v2 =====
+libhello.a: 43
+00000000000000c0 T __Z3SayNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE
+0000000000000000 T __Z5HelloNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE
+myapp: 46
+0000000100001310 T __Z3SayNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE
+0000000100002220 T __Z5HelloNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE
+---
+v2: Hello, Alice!
+v2: How are you doing?
+
+===== build-STATIC-v1-on-v1 =====
+libhello.a: 43
+00000000000000c0 T __Z3SayNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE
+0000000000000000 T __Z5HelloNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE
+myapp: 46
+0000000100001350 t __Z3SayNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE
+0000000100002260 T __Z5HelloNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE
+---
+v1: Hello, Alice!
+v1: How are you doing?
+
+===== build-STATIC-v1-on-v2 =====
+libhello.a: 43
+00000000000000c0 T __Z3SayNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE
+0000000000000000 T __Z5HelloNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE
+myapp: 46
+0000000100001340 t __Z3SayNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE
+0000000100002250 T __Z5HelloNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE
+---
+v2: Hello, Alice!
+v2: How are you doing?
+
+===== build-STATIC-v2-off-v1 =====
+libhello.a: 43
+00000000000000c0 T __Z3SayNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE
+0000000000000000 T __Z5HelloNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE
+myapp: 46
+0000000100001310 T __Z3SayNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE
+0000000100002220 T __Z5HelloNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE
+---
+v1: Hello, Alice!
+v1: How are you doing?
+
+===== build-STATIC-v2-off-v2 =====
+libhello.a: 43
+00000000000000c0 T __Z3SayNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE
+0000000000000000 T __Z5HelloNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE
+myapp: 46
+0000000100001310 T __Z3SayNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE
+0000000100002220 T __Z5HelloNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE
+---
+v2: Hello, Alice!
+v2: How are you doing?
+
+===== build-STATIC-v2-on-v1 =====
+libhello.a: 43
+00000000000000c0 T __Z3SayNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE
+0000000000000000 T __Z5HelloNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE
+myapp: 46
+0000000100001340 t __Z3SayNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE
+0000000100002250 T __Z5HelloNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE
+---
+v1: Hello, Alice!
+v1: How are you doing?
+
+===== build-STATIC-v2-on-v2 =====
+libhello.a: 43
+00000000000000c0 T __Z3SayNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE
+0000000000000000 T __Z5HelloNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE
+myapp: 46
+0000000100001350 t __Z3SayNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE
+0000000100002260 T __Z5HelloNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE
+---
+v2: Hello, Alice!
+v2: How are you doing?
