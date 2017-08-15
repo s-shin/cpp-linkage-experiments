@@ -1,0 +1,168 @@
+===== build-SHARED-v1-off-v1 =====
+myapp: 54
+0000000000400d7b W _Z3SaySs
+                 U _Z5HelloSs
+---
+v1: Hello, Alice!
+v1: How are you doing?
+
+===== build-SHARED-v1-off-v2 =====
+myapp: 54
+0000000000400d7b W _Z3SaySs
+                 U _Z5HelloSs
+---
+v2: Hello, Alice!
+v2: How are you doing?
+
+===== build-SHARED-v1-on-v1 =====
+myapp: 54
+0000000000400d4b W _Z3SaySs
+                 U _Z5HelloSs
+---
+v1: Hello, Alice!
+v1: How are you doing?
+
+===== build-SHARED-v1-on-v2 =====
+myapp: 54
+0000000000400d4b W _Z3SaySs
+                 U _Z5HelloSs
+---
+v1: Hello, Alice!
+v2: How are you doing?
+
+===== build-SHARED-v2-off-v1 =====
+myapp: 54
+0000000000400d7b W _Z3SaySs
+                 U _Z5HelloSs
+---
+v1: Hello, Alice!
+v1: How are you doing?
+
+===== build-SHARED-v2-off-v2 =====
+myapp: 54
+0000000000400d7b W _Z3SaySs
+                 U _Z5HelloSs
+---
+v2: Hello, Alice!
+v2: How are you doing?
+
+===== build-SHARED-v2-on-v1 =====
+myapp: 54
+0000000000400d4b W _Z3SaySs
+                 U _Z5HelloSs
+---
+v2: Hello, Alice!
+v1: How are you doing?
+
+===== build-SHARED-v2-on-v2 =====
+myapp: 54
+0000000000400d4b W _Z3SaySs
+                 U _Z5HelloSs
+---
+v2: Hello, Alice!
+v2: How are you doing?
+
+===== build-STATIC-v1-off-v1 =====
+libhello.a: 32
+00000000000000e5 t _GLOBAL__I__Z5HelloSs
+0000000000000000 W _Z3SaySs
+0000000000000000 T _Z5HelloSs
+myapp: 69
+0000000000400fe9 t _GLOBAL__I__Z5HelloSs
+0000000000400ecb W _Z3SaySs
+0000000000400f04 T _Z5HelloSs
+---
+v1: Hello, Alice!
+v1: How are you doing?
+
+===== build-STATIC-v1-off-v2 =====
+libhello.a: 32
+00000000000000e5 t _GLOBAL__I__Z5HelloSs
+0000000000000000 W _Z3SaySs
+0000000000000000 T _Z5HelloSs
+myapp: 69
+0000000000400fe9 t _GLOBAL__I__Z5HelloSs
+0000000000400ecb W _Z3SaySs
+0000000000400f04 T _Z5HelloSs
+---
+v2: Hello, Alice!
+v2: How are you doing?
+
+===== build-STATIC-v1-on-v1 =====
+libhello.a: 32
+00000000000000e5 t _GLOBAL__I__Z5HelloSs
+0000000000000000 W _Z3SaySs
+0000000000000000 T _Z5HelloSs
+myapp: 69
+0000000000400fe9 t _GLOBAL__I__Z5HelloSs
+0000000000400ecb W _Z3SaySs
+0000000000400f04 T _Z5HelloSs
+---
+v1: Hello, Alice!
+v1: How are you doing?
+
+===== build-STATIC-v1-on-v2 =====
+libhello.a: 32
+00000000000000e5 t _GLOBAL__I__Z5HelloSs
+0000000000000000 W _Z3SaySs
+0000000000000000 T _Z5HelloSs
+myapp: 69
+0000000000400fe9 t _GLOBAL__I__Z5HelloSs
+0000000000400ecb W _Z3SaySs
+0000000000400f04 T _Z5HelloSs
+---
+v2: Hello, Alice!
+v2: How are you doing?
+
+===== build-STATIC-v2-off-v1 =====
+libhello.a: 32
+00000000000000e5 t _GLOBAL__I__Z5HelloSs
+0000000000000000 W _Z3SaySs
+0000000000000000 T _Z5HelloSs
+myapp: 69
+0000000000400fe9 t _GLOBAL__I__Z5HelloSs
+0000000000400ecb W _Z3SaySs
+0000000000400f04 T _Z5HelloSs
+---
+v1: Hello, Alice!
+v1: How are you doing?
+
+===== build-STATIC-v2-off-v2 =====
+libhello.a: 32
+00000000000000e5 t _GLOBAL__I__Z5HelloSs
+0000000000000000 W _Z3SaySs
+0000000000000000 T _Z5HelloSs
+myapp: 69
+0000000000400fe9 t _GLOBAL__I__Z5HelloSs
+0000000000400ecb W _Z3SaySs
+0000000000400f04 T _Z5HelloSs
+---
+v2: Hello, Alice!
+v2: How are you doing?
+
+===== build-STATIC-v2-on-v1 =====
+libhello.a: 32
+00000000000000e5 t _GLOBAL__I__Z5HelloSs
+0000000000000000 W _Z3SaySs
+0000000000000000 T _Z5HelloSs
+myapp: 69
+0000000000400fe9 t _GLOBAL__I__Z5HelloSs
+0000000000400ecb W _Z3SaySs
+0000000000400f04 T _Z5HelloSs
+---
+v1: Hello, Alice!
+v1: How are you doing?
+
+===== build-STATIC-v2-on-v2 =====
+libhello.a: 32
+00000000000000e5 t _GLOBAL__I__Z5HelloSs
+0000000000000000 W _Z3SaySs
+0000000000000000 T _Z5HelloSs
+myapp: 69
+0000000000400fe9 t _GLOBAL__I__Z5HelloSs
+0000000000400ecb W _Z3SaySs
+0000000000400f04 T _Z5HelloSs
+---
+v2: Hello, Alice!
+v2: How are you doing?
+
